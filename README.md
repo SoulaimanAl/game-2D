@@ -51,20 +51,20 @@ Exit the game ESC or the exit in the right corner of window
 
 File Structure
 
-so_long/
-│── textures/            # Game images (player, enemies, etc.)
-│── maps/                # Sample maps
-│── Makefile             # Compilation script
-│── README.md            # Project documentation
+so_long
+│── textures            # Game images (player, enemies, etc.)
+│── maps                # Sample maps
+│── Makefile            # Compilation script
+│── README.md           # Project documentation
 
 Map Format
 
 The game expects a .ber map file formatted like this:
 
-1111111
-1P00001
-1C1E0N1
-1111111
+1111111 
+1P00001 
+1C1E0N1 
+1111111 
 
 1 → Wall
 

@@ -6,67 +6,48 @@ Game-2D is project developed in C using the MinilibX (MLX) graphics library. The
 
 Features
 
-Loads and renders maps from .ber files.
+	Loads and renders maps from .ber files.
 
-Uses MinilibX for graphical rendering.
+	Uses MinilibX for graphical rendering.
 
-Supports movement using arrow keys.
+	Supports movement using arrow keys.
 
-Displays a move counter on the screen.
+	Displays a move counter on the screen.
 
-Implements a flood-fill algorithm to validate maps.
+	Implements a flood-fill algorithm to validate maps.
 
-Various sprites for the player, enemies, coins, walls, and exit.
+	Various sprites for the player, enemies, coins, walls, and exit.
 
-Installation
-
-Requirements
-
-MinilibX (MLX)
-
-X11 and related libraries (libXext, libX11, libm)
-
-A Linux system or macOS
-
-Build Instructions
+Installation requirements :
+ 
+	MinilibX (MLX)
+	X11 and related libraries (libXext, libX11, libm)
+	A Linux system or macOS
+	Build Instructions
 
 Clone the repository and compile the project:
 
-git clone <your-repo-link>
-cd so_long
-make
+	git clone <your-repo-link>
+	cd so_long
+	make
 
-Running the Game
+	Running the Game
 
-Run the executable with a map file:
+	Run the executable with a map file:
 
-./so_long maps/example.ber
+	./so_long maps/example.ber
 
-Game Controls
+Game Controls keys
 
-Key
+Move Left ←
 
-Action
+Move Right →
 
-←
+Move Up ↑
 
-Move Left
+Move Down ↓
 
-→
-
-Move Right
-
-↑
-
-Move Up
-
-↓
-
-Move Down
-
-ESC
-
-Exit the game
+Exit the game ESC or the exit in the right corner of window
 
 File Structure
 
